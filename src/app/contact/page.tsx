@@ -157,7 +157,7 @@ const Contact = () => {
           <div className="flex flex-col gap-2.5 text-[#181616] items-center justify-center my-[34px]">
             <h2 className="text-[35px] font-medium">Other ways to reach us:</h2>
           </div>
-          <div className="flex gap-5 items-start justify-center">
+          {/* <div className="flex gap-5 items-start justify-center">
             <img src='/assets/phone.png' alt="" className="w-6 pt-1" />
             <div className="flex flex-col items-start justify-center gap-3">
               <h4 className="text-[24px] leading-[24px] font-medium">
@@ -167,7 +167,7 @@ const Contact = () => {
                 +234-909-243-9804
               </p>
             </div>
-          </div>
+          </div> */}
           <div className="flex gap-5 items-start justify-center">
             <img src='assets/mail.png' alt="" className="w-6 pt-1" />
             <div className="flex flex-col items-start justify-center gap-3">
@@ -175,7 +175,7 @@ const Contact = () => {
                 Mail Us
               </h4>
               <p className="text-[#3E4A31] leading-[16px]">
-                support@Bonteva4u.com
+                support@Bonteva.com
               </p>
             </div>
           </div>
