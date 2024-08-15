@@ -16,14 +16,14 @@ const Header = () => {
     const router = useRouter()
     const path = usePathname()
     return (
-        <header className='fixed w-[100%] z-[2] lg:bg-[#1E4A31] flex items-center justify-between px-[20px] bg-white py-[25px] sm:py-[47px] top-0'>
-            <div className='w-[100%] relative z-[2] lg:hidden'>
-                <Image src="/assets/logo.png" width={84} height={45} alt="Logo" className="w-[84px] h-[45px] object-cover" />
+        <header className='fixed w-[100%] z-[2] lg:bg-[#3E4A31] flex items-center justify-between px-[20px] bg-white py-[25px] sm:py-[47px] top-0'>
+            <div className='w-[100%] relative z-[2]'>
+                <div className='text-white text-2xl font-semibold'>
+                    <p>Bonteva</p>
+                </div>
             </div>
             <Nav className="container mx-auto hidden lg:flex relative">
-                <div className='absolute z-[2] -translate-x-[32px] left-0'>
-                    <p>ITAJA</p>
-                </div>
+
                 <Link href="/">
                     <p>Home</p>
                 </Link>

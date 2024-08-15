@@ -86,14 +86,14 @@ const Products = () => {
                     <span className="text-[#714E2D]">OUR</span>{" "}
                     <span className="text-[#EE821F]">PRODUCTS</span>
                 </h1>
-                <p className="text-[#696969] font-body text-[16px] sm:text-[20px] leading-normal font-[400] w-[80%] lg:w-[60%] mx-auto text-center" data-aos="fade-up" data-aos-duration="1000">From the rich flavors of dried Hibiscus leaves to the nutritional powerhouse of Sesame seeds, explore our carefully curated selection, showcasing the essence of eco-friendly farming. Discover the quality and freshness that sets Itaja Innovations Limited Ltd{"'"}s products apart.</p>
+                <p className="text-[#696969] font-body text-[16px] sm:text-[20px] leading-normal font-[400] w-[80%] lg:w-[60%] mx-auto text-center" data-aos="fade-up" data-aos-duration="1000">From the rich flavors of dried Hibiscus leaves to the nutritional powerhouse of Sesame seeds, explore our carefully curated selection, showcasing the essence of eco-friendly farming. Discover the quality and freshness that sets Bonteva products apart.</p>
                 <div className='pt-[100px] hidden lg:flex flex-col items-center justify-center gap-[100px]'>
                     <div className='grid grid-cols-3 gap-[40px]'>
                     {data?.result?.filter((e: any, id: number) => e.ProductType == "Itaja").map((e: any, id: React.Key | null | undefined) => {
                                 return (
                                     <div key={id} className='cursor-pointer relative group hover:scale-[1.03] transition-one'>
                                         <Image src={urlFor(e.ProductImage.asset._ref).url()} width={1500} height={500} alt="" objectFit='contain' className="w-[387px] h-[476px] 2xl:h-[476px] object-cover group-hover:scale-[1.03] shadow-md" data-aos="fade-right" />
-                                        <div className='text-[#1E4A31] bg-[#EBF7EC] h-[143px] items-center justify-center text-[36px] underline font-body absolute z-[1] bottom-0 w-[100%] opacity-0 group-hover:opacity-100 flex transition-one'>
+                                        <div className='text-[#3E4A31] bg-[#EBF7EC] h-[143px] items-center justify-center text-[36px] underline font-body absolute z-[1] bottom-0 w-[100%] opacity-0 group-hover:opacity-100 flex transition-one'>
                                             <Link href={`/Products/${e._id}`}>
                                                 <h1 data-aos="zoom-in">{e.ProductName}</h1>
                                             </Link>
@@ -110,7 +110,7 @@ const Products = () => {
                         return (
                             <div className='cursor-pointer relative group' key={id}>
                                 <Image src={urlFor(e.ProductImage.asset._ref).url()} width={1500} height={500} alt="" objectFit='contain' className="w-[100%] h-[370px] object-cover" />
-                                <div className='text-[#1E4A31] bg-[#EBF7EC] h-[80px] items-center justify-center text-[20px] font-body absolute z-[1] bottom-0 w-[100%] flex'>
+                                <div className='text-[#3E4A31] bg-[#EBF7EC] h-[80px] items-center justify-center text-[20px] font-body absolute z-[1] bottom-0 w-[100%] flex'>
                                     <Link href={`/Products/${e._id}`}>
                                         <h1 data-aos="zoom-in">{e.ProductName}</h1>
                                     </Link>

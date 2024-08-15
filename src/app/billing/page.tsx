@@ -100,7 +100,7 @@ const Billing = () => {
           <h1 className="font-medium md:font-semibold text-[50px] sm:text-[40px] md:text-[50px] md:text-left leading-snug md:leading-[62px] text-center text-orange-950">
             Order Details
           </h1>
-          <p>Find the best way to get help and connect with Itaja Innovations</p>
+          <p>Find the best way to get help and connect with Bonteva</p>
         </div>
       </section>
 

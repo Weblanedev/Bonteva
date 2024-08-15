@@ -75,7 +75,7 @@ const Contact = () => {
           <h1 className="font-medium md:font-semibold text-[50px] sm:text-[40px] md:text-[50px] md:text-left leading-snug md:leading-[62px] text-center text-orange-950">
             Contact Us
           </h1>
-          <p>Find the best way to get help and connect with Itaja Innovations</p>
+          <p>Find the best way to get help and connect with Bonteva</p>
         </div>
       </section>
 
@@ -163,7 +163,7 @@ const Contact = () => {
               <h4 className="text-[24px] leading-[24px] font-medium">
                 Call Us
               </h4>
-              <p className="text-[#1E4A31] leading-[16px]">
+              <p className="text-[#3E4A31] leading-[16px]">
                 +234-909-243-9804
               </p>
             </div>
@@ -174,8 +174,8 @@ const Contact = () => {
               <h4 className="text-[24px] leading-[24px] font-medium">
                 Mail Us
               </h4>
-              <p className="text-[#1E4A31] leading-[16px]">
-                support@itaja4u.com
+              <p className="text-[#3E4A31] leading-[16px]">
+                support@Bonteva4u.com
               </p>
             </div>
           </div>
@@ -185,7 +185,7 @@ const Contact = () => {
               <h4 className="text-[24px] leading-[24px] font-medium">
                 Address
               </h4>
-              <p className="text-[#1E4A31] leading-normal">
+              <p className="text-[#3E4A31] leading-normal">
                 Lagos, Nigeira
               </p>
             </div>
